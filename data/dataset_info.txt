@@ -1,0 +1,47 @@
+DATASET INFORMATION
+===================
+
+Dataset Name: Flight Delays Dataset
+Source: Kaggle
+URL: https://www.kaggle.com/datasets/umeradnaan/flight-delays-dataset
+
+Total Records: 1,048,575 flights
+File Format: CSV
+File Size: ~150 MB (approximate)
+
+COLUMNS:
+--------
+1. FlightID - Unique flight identifier
+2. Airline - Airline name (American Airlines, Delta, Southwest, United)
+3. FlightNumber - Flight number
+4. Origin - Departure airport code (ATL, DFW, JFK, LAX, ORD)
+5. Destination - Arrival airport code
+6. ScheduledDeparture - Planned departure time
+7. ActualDeparture - Actual departure time
+8. ScheduledArrival - Planned arrival time
+9. ActualArrival - Actual arrival time
+10. DelayMinutes - Delay duration in minutes
+11. DelayReason - Reason for delay (Air Traffic Control, Maintenance, Weather)
+12. Cancelled - Whether flight was cancelled (TRUE/FALSE)
+13. Diverted - Whether flight was diverted (TRUE/FALSE)
+14. AircraftType - Type of aircraft (Airbus A320, Boeing 737, Boeing 777)
+15. TailNumber - Aircraft registration number
+16. Distance - Flight distance in miles
+
+DOWNLOAD INSTRUCTIONS:
+---------------------
+1. Visit the Kaggle URL above
+2. Sign in to your Kaggle account (or create one for free)
+3. Click "Download" button
+4. Extract the CSV file
+5. Use this dataset with the SQL queries and Excel analysis provided in this repository
+
+NOTE:
+-----
+Due to GitHub file size limitations, the actual dataset is not included in this repository.
+Please download it directly from Kaggle using the link above.
+
+LICENSE:
+--------
+This is a public dataset available on Kaggle for educational and analytical purposes.
+Please refer to Kaggle's terms of service for usage guidelines.
